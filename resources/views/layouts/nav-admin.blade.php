@@ -6,10 +6,10 @@
     </div>
     <div>
         <a class="navbar-brand brand-logo" href="">
-            <img src="{{ asset('../../assets/img/bgi.png')}}" alt="logo" />
+            <img src="{{ asset('img/admin.png' ) }}" class="card-img-top" alt="...">
         </a>
         <a class="navbar-brand brand-logo-mini" href="">
-            <img src="{{ asset('../../assets/img/bgi.png')}}" alt="logo" />
+            <img src="{{ asset('img/admin.png' ) }}" class="card-img-top" alt="...">
         </a>
     </div>
 </div>

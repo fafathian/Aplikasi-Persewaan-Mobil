@@ -18,6 +18,10 @@ use App\Http\Controllers\RentalController;
 |
 */
 
+Route::get('/', function () {
+    return redirect()->route('home');
+});
+
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
